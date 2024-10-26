@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RENTO</title>
+    <!-- title icon -->
+    <link
+      rel="icon"
+      type="img"
+      href="https://www.freeiconspng.com/thumbs/car-icon-png/cars-icon-31.png"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <div class="nav container">
+          <!-- logo -->
+          <a href="#home" class="logo">Rento<span>.</span></a>
+          <!-- navbar -->
+          <div class="navbar">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#trending" class="nav-link">Trending</a>
+            <a href="#rentals" class="nav-link">Cars</a>
+            <a href="#team" class="nav-link">Team</a>
+            <a href="#reviews" class="nav-link">Reviews</a>
+          </div>
+          <!-- nav icon -->
+          <div class="nav-icons">
+            <div class="search_nav">
+              <img class="search-img" src="https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/magnifier-512.png" alt="">
+              <input type="search" name="search" id="search" placeholder="Search">
+              <img class="google-img" src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png" alt="">
+            </div>
+            <a href=""><i class="bx bx-user user-icon"></i></a>
+            <!-- menu icon -->
+            <div class="menu-icon">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Home Section -->
+      <section class="home" id="home">
+        <div class="home-container container">
+          <div class="home-img">
+            <img src="./image/home.png" alt="Rasm bor?" />
+          </div>
+          <form action="" class="input-form">
+            <div class="input-box input-border">
+              <span>Location</span>
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Search Places"
+              />
+            </div>
+            <div class="input-box input-border">
+              <span>Start</span>
+              <input type="date" name="start-date" id="start-date" />
+            </div>
+            <div class="input-box">
+              <span>Return</span>
+              <input type="date" name="return-date" id="return-date" />
+            </div>
+            <i class="bx bx-search search-btn"></i>
+          </form>
+        </div>
+      </section>
+      <!-- Trending Section -->
+      <section class="trending container" id="trending">
+        <div class="heading">
+          <h2>Trending Vehicles</h2>
+        </div>
+        <div class="trending-content">
+          <div class="trend-box">
+            <h4>Electric</h4>
+            <img src="./image/trend-1.png" alt="Rasm bor" />
+            <h3>Taycan S</h3>
+            <p>From $299/day</p>
+          </div>
+
+          <div class="trend-box">
+            <h4>Electric</h4>
+            <img src="./image/trend-2.png" alt="Rasm bor" />
+            <h3>Taycan</h3>
+            <p>From $299/day</p>
+          </div>
+
+          <div class="trend-box">
+            <h4>Electric</h4>
+            <img src="./image/trend-3.png" alt="Rasm bor" />
+            <h3>Taycan Turbo</h3>
+            <p>From $299/day</p>
+          </div>
+
+          <div class="trend-box">
+            <h4>Electric</h4>
+            <img src="./image/trend-4.png" alt="Rasm bor" />
+            <h3>Taycan Turismo</h3>
+            <p>From $299/day</p>
+          </div>
+        </div>
+      </section>
+      <!-- Rental Section -->
+      <section class="rentals container" id="rentals">
+        <div class="heading">
+          <h2>Our Top Rentals</h2>
+          <p>
+            Discover our top car rentals, providing comfort, affordability, and
+            convenience to make your next jouney smooth and enjoyable!
+          </p>
+        </div>
+
+        <div class="rental-content">
+          <!-- Box 1 -->
+          <div class="rental-box">
+            <div class="rental-top">
+              <h3>Sedan</h3>
+              <i class="bx bxs-heart"></i>
+            </div>
+            <img src="./image/rental-1.png" alt="Rasm bor" />
+            <h2>Rolls-Royce</h2>
+            <h4>Automatic</h4>
+            <div class="price-btn">
+              <p>$299<span>/day</span></p>
+              <a href="#" class="rental-btn">Rent</a>
+            </div>
+          </div>
+          <!-- Box 2 -->
+          <div class="rental-box">
+            <div class="rental-top">
+              <h3>Sedan</h3>
+              <i class="bx bxs-heart"></i>
+            </div>
+            <img src="./image/rental-2.png" alt="Rasm bor" />
+            <h2>Macan 4</h2>
+            <h4>Automatic</h4>
+            <div class="price-btn">
+              <p>$299<span>/day</span></p>
+              <a href="#" class="rental-btn">Rent</a>
+            </div>
+          </div>
+          <!-- Box 3 -->
+          <div class="rental-box">
+            <div class="rental-top">
+              <h3>Sedan</h3>
+              <i class="bx bxs-heart"></i>
+            </div>
+            <img src="./image/rental-3.png" alt="Rasm bor" />
+            <h2>Cayenne S E-Hybrid</h2>
+            <h4>Automatic/Manual</h4>
+            <div class="price-btn">
+              <p>$299<span>/day</span></p>
+              <a href="#" class="rental-btn">Rent</a>
+            </div>
+          </div>
+          <!-- Box 4 -->
+          <div class="rental-box">
+            <div class="rental-top">
+              <h3>Sedan</h3>
+              <i class="bx bxs-heart"></i>
+            </div>
+            <img src="./image/rental-4.png" alt="Rasm bor" />
+            <h2>Nisan GT-R</h2>
+            <h4>Automatic</h4>
+            <div class="price-btn">
+              <p>$299<span>/day</span></p>
+              <a href="#" class="rental-btn">Rent</a>
+            </div>
+          </div>
+          <!-- Box 5 -->
+          <div class="rental-box">
+            <div class="rental-top">
+              <h3>Sedan</h3>
+              <i class="bx bxs-heart"></i>
+            </div>
+            <img src="./image/rental-5.png" alt="Rasm bor" />
+            <h2>Panamera Turbo</h2>
+            <h4>Automatic</h4>
+            <div class="price-btn">
+              <p>$299<span>/day</span></p>
+              <a href="#" class="rental-btn">Rent</a>
+            </div>
+          </div>
+          <!-- Box 6 -->
+          <div class="rental-box">
+            <div class="rental-top">
+              <h3>Sedan</h3>
+              <i class="bx bxs-heart"></i>
+            </div>
+            <img src="./image/rental-6.png" alt="Rasm bor" />
+            <h2>Nisan Ariya</h2>
+            <h4>Automatic/Manual</h4>
+            <div class="price-btn">
+              <p>$299<span>/day</span></p>
+              <a href="#" class="rental-btn">Rent</a>
+            </div>
+          </div>
+          <!-- Box 7 -->
+          <div class="rental-box">
+            <div class="rental-top">
+              <h3>Sedan</h3>
+              <i class="bx bxs-heart"></i>
+            </div>
+            <img src="./image/rental-7.png" alt="Rasm bor" />
+            <h2>Canenne Turbo</h2>
+            <h4>Automatic</h4>
+            <div class="price-btn">
+              <p>$299<span>/day</span></p>
+              <a href="#" class="rental-btn">Rent</a>
+            </div>
+          </div>
+          <!-- Box 8 -->
+          <div class="rental-box">
+            <div class="rental-top">
+              <h3>Sedan</h3>
+              <i class="bx bxs-heart"></i>
+            </div>
+            <img src="./image/rental-8.png" alt="Rasm bor" />
+            <h2>718 Boxster S</h2>
+            <h4>Automatic</h4>
+            <div class="price-btn">
+              <p>$299<span>/day</span></p>
+              <a href="#" class="rental-btn">Rent</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Team Section -->
+      <section class="team container" id="team">
+        <!-- Heading -->
+        <div class="heading">
+          <h2>Meet Our Experts</h2>
+        </div>
+        <div class="team-content">
+          <div class="team-box">
+            <img src="./image/team-1.png" alt="" />
+            <h2>Brad Zones</h2>
+            <span>Co-Head</span>
+            <p>
+              As a car rental company, we seek out top manufactures to provide
+              our custombers with the best vehicles.
+            </p>
+          </div>
+          <div class="team-box">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Elon_Musk_Royal_Society.jpg/640px-Elon_Musk_Royal_Society.jpg"
+              alt=""
+            />
+            <h2>Elon Musk</h2>
+            <span>Tesla</span>
+            <p>
+              As a car rental company, we seek out top manufactures to provide
+              our custombers with the best vehicles.
+            </p>
+          </div>
+          <div class="team-box">
+            <img src="./image/team-3.png" alt="" />
+            <h2>Bunny Zones</h2>
+            <span>Director</span>
+            <p>
+              As a car rental company, we seek out top manufactures to provide
+              our custombers with the best vehicles.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Reviews Section -->
+      <section class="reviews" id="reviews">
+        <div class="heading">
+          <h2>Our Customer's</h2>
+        </div>
+        <div class="reviews-content container">
+          <div class="t-box">
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <p>
+              "Fantastic service form start to finish! The car was clean,
+              comfortable, and ready on time. The staff was friendly and
+              helpful, and the prices were vary reasonable. Heighly recommend
+              this company!"
+            </p>
+            <div class="profile">
+              <img src="./image/profile-1.png" alt="" />
+              <div class="profile-data">
+                <h3>Alfredo Bator</h3>
+                <span>New York</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="t-box">
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <p>
+              "Fantastic service form start to finish! The car was clean,
+              comfortable, and ready on time. The staff was friendly and
+              helpful, and the prices were vary reasonable. Heighly recommend
+              this company!"
+            </p>
+            <div class="profile">
+              <img src="./image/profile-2.png" alt="" />
+              <div class="profile-data">
+                <h3>Sadiq Parker</h3>
+                <span>New Jersy</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="t-box">
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <p>
+              "Fantastic service form start to finish! The car was clean,
+              comfortable, and ready on time. The staff was friendly and
+              helpful, and the prices were vary reasonable. Heighly recommend
+              this company!"
+            </p>
+            <div class="profile">
+              <img src="./image/profile-3.png" alt="" />
+              <div class="profile-data">
+                <h3>Ibrahim Apan</h3>
+                <span>Dubai</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="t-box">
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <p>
+              "Fantastic service form start to finish! The car was clean,
+              comfortable, and ready on time. The staff was friendly and
+              helpful, and the prices were vary reasonable. Heighly recommend
+              this company!"
+            </p>
+            <div class="profile">
+              <img src="./image/profile-4.png" alt="" />
+              <div class="profile-data">
+                <h3>Jonathan Parker</h3>
+                <span>London</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Newsletter Section -->
+      <section class="newsletter container" id="newsletter">
+        <h2>Subscribe and Get 20% Discount</h2>
+        <p>Be the first to get the latest news, promotions and much more.</p>
+        <form action="">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <input type="submit" value="Subscribe" class="s-btn" />
+        </form>
+      </section>
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-content container">
+          <div class="footer-box">
+            <a href="" class="logo">Rento<span>.</span></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="socials">
+              <a target="_blank" href="https://www.instagram.com/omad_coder_07?igsh=MXAxM2R6Y2hpNG54YQ=="><i class="bx bxl-instagram"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/in/xusanboyev-omadbek"><i class="bx bxl-linkedin"></i></a>
+              <a target="_blank" href="https://www.facebook.com/profile.php?id=100095231617106"><i class="bx bxl-facebook"></i></a>
+              <a target="_blank" href="https://t.me/XusanboyevOmadbek"><i class="bx bxl-telegram"></i></a>
+            </div>
+          </div>
+          <div class="footer-box">
+            <h3>Opening Hours</h3>
+            <p><span>Mon</span>: 9:00 - 20:30</p>
+            <p><span>Tue</span>: 9:00 - 20:30</p>
+            <p><span>Wed</span>: 9:00 - 20:30</p>
+            <p><span>Thu</span>: 9:00 - 20:30</p>
+            <p><span>Fri</span>: 9:00 - 20:30</p>
+            <p><span>Sat</span>: 9:00 - 20:30</p>
+            <p><span>Sun</span>: Closed</p>
+          </div>
+          <div class="footer-box">
+            <h3>Information</h3>
+            <a href="#about">About Us</a>
+            <a href="#blog">Blog</a>
+            <a href="#cars">Cars</a>
+            <a href="#trending">Trending</a>
+            <a href="#reviews">Reviews</a>
+          </div>
+          <div class="footer-box">
+            <h3>Contact Us</h3>
+            <p>+998934434742</p>
+            <p>support: xusanboyev03@inbox.ru</p>
+          </div>
+        </div>
+        <p class="copyright">
+          &#169; 2024. Omad<span>Coder</span> All Rights Reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Js link  -->
+  <script src="index.js"></script>
+</html>
